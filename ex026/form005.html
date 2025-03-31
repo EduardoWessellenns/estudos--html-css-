@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, datalist e textarea</title>
+</head>
+<body>
+    <h1>Exemplo de formulário </h1>
+    <form action="">
+    <p>
+        <label for="iest">Estado</label>
+        <select name="estado" id="iest">
+            <option value="SP">São paulo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de janeiro</option>
+
+
+
+        </select>
+    </p>
+    <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="profissao" id="iprof" placeholder="Profissão" list="lstprof" >
+        <datalist id="lstprof">
+            <option value="ADM">administrador</option>
+            <option value="CONT">contador</option>
+            <option value="PROF">professor</option>
+            <option value="BANC">bancario</option>
+            <option value="QUIM">quimico</option>
+
+        </datalist>
+
+
+    </p>
+    <p>
+        <label for="imsg">Mensagens</label>
+        <textarea name="msg" id="imsg" cols="50" rows="20"></textarea>
+
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+
+    </p>
+
+    </form>
+</body>
+</html>
