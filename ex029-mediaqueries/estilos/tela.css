@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: lightgray;
+}
+
+
+header h1 {
+    text-align: center;
+    width: 100vw;
+}
+
+header li{
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+    background-color: gray;
+}
+
+header ul{
+    padding: 10px;
+}
+
+main{
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    
+}
